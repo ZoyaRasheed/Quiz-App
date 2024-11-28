@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/app.css" />
+  <title>KnowHub</title>
+</head>
+<body>
+  <div class="container">
+    <div id="startScreen" class="start-screen">
+      <h1>Welcome to the Quiz!</h1>
+      <button id="startButton">Start Quiz</button>
+    </div>
+    <div id="quizScreen" class="quiz-screen hidden">
+      <div class="quiz-progress" id="quizProgress"></div>
+      <div class="question-container" id="questionContainer"></div>
+      <div class="answer-container" id="answerContainer"></div>
+    </div>
+    <div id="endScreen" class="end-screen hidden">
+      <h1 id="resultMessage"></h1>
+      <p>Your Score: <span id="finalScore"></span> / <span id="totalQuestions"></span></p>
+      <button id="restartButton">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
