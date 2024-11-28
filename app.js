@@ -46,7 +46,7 @@ const questions = [
     topic: "Geography",
     question: "What is the capital city of New Zealand?",
     possibleAnswers: ["Auckland", "Wellington", "Hamilton"],
-    correctAnswer: "Brasilia",
+    correctAnswer: "Wellington",
   },
 ];
 
