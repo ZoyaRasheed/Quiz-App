@@ -64,14 +64,6 @@ Welcome to the **Quiz Game**! This project is a geography-based quiz game where 
   - **Primary Colors**: Shades of blue for buttons and navigation.
   - **Accent Colors**: Green and white for text and highlights.
 
-```css
-/* Example colors from app.css */
-background-color: #1e3d59;
-color: #ffffff;
-button {
-  background-color: #4caf50;
-}
-
 ---
 
 ### Typography
@@ -90,7 +82,7 @@ h1, h2, h3 {
   font-family: 'Roboto', sans-serif;
 }
 
-
+```
 ### Imagery
 
 - The app's background image features a world map to complement the quiz's theme.
@@ -186,6 +178,8 @@ The site is deployed using [GitHub Pages](https://pages.github.com/). Visit the 
 
 ```bash
 git clone git@github.com:ZoyaRasheed/Quiz-App.git
+
+```
 
 ## Testing
 
