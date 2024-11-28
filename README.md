@@ -1,168 +1,77 @@
-Quiz App 🌍
+# Quiz Game 🌍
 
-An engaging and interactive geography quiz app designed to challenge users on world geography knowledge. The application features a user-friendly interface, dynamic questions, and responsive design.
-Visit the Deployed Site
+Welcome to the **Quiz Game**! This project is a geography-based quiz game where players can test their knowledge of the world. Below is the detailed documentation for the project.
 
-The quiz app is live on GitHub Pages: https://zoyarasheed.github.io/Quiz-App/
-CONTENTS
+---
 
-    User Experience
-        User Stories
-    Design
-        Colour Scheme
-        Typography
-        Imagery
-        Wireframes
-        Features
-            The Home Page
-            The Game Page
-            The End Score Page
-            Future Implementations
-        Accessibility
-    Technologies Used
-        Languages Used
-        Frameworks, Libraries & Programs Used
-    Deployment & Local Development
-        Deployment
-        Local Development
-            How to Fork
-            How to Clone
-    Testing
-        Solved Bugs
-        Known Bugs
-    Credits
-        Code Used
-        Content
-        Media
-        Acknowledgments
+## Visit the Deployed Site
 
-User Experience
-User Stories
+[Click here to view the Quiz Game](https://zoyarasheed.github.io/Quiz-App/)
 
-    As a user, I want to test my geography knowledge in a fun and interactive way.
-    As a user, I want to see instant feedback for correct and incorrect answers.
-    As a user, I want to track my progress and see my score at the end of the quiz.
-    As a user, I want the app to be responsive on mobile, tablet, and desktop devices.
+---
 
-Design
-Colour Scheme
+## Contents
 
-    Background Color: A dark-themed background (#252525) to reduce eye strain and focus attention on the content.
-    Primary Accent: Vibrant gold (#eaca5b) to enhance interactivity and elegance.
-    Hover Effects: Buttons change to a lighter gold (#d4af37) for active user engagement.
+- [User Experience](#user-experience)
+  - [User Stories](#user-stories)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [The Home Page](#the-home-page)
+    - [The Game Page](#the-game-page)
+    - [The End Score Page](#the-end-score-page)
+    - [Future Implementations](#future-implementations)
+  - [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+  - [Solved Bugs](#solved-bugs)
+  - [Known Bugs](#known-bugs)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
 
-Typography
+---
 
-    The app uses the Arial sans-serif font for a clean and professional appearance. Font sizes vary to create a clear content hierarchy.
+## User Experience
 
-Imagery
+### User Stories
 
-    The app includes a subtle world map background image, adding context to the geography theme of the quiz.
+- As a player, I want to test my knowledge of world geography in an interactive and fun way.
+- As a new user, I want clear instructions to play the quiz game.
+- As a returning user, I want to see my score to track progress.
+- As an accessibility-conscious user, I want the game to be easy to navigate with assistive technologies.
 
-Wireframes
+---
 
-Include your wireframe images here. To display them in Markdown, use the following format:
+## Design
 
-![Wireframe - Home Page](./images/1-Homepage.png)
-![Wireframe - Quiz Page](./images/2-QuizPage.png)
-![Wireframe - End Page](./images/3-Endpage.png)
+### Colour Scheme
 
-Features
-The Home Page
+- The app uses a color scheme inspired by geography themes, including:
+  - **Background Color**: A world map image for relevance to geography.
+  - **Primary Colors**: Shades of blue for buttons and navigation.
+  - **Accent Colors**: Green and white for text and highlights.
 
-    Displays a welcome message and an enticing "Start Quiz" button.
-    Sets the tone with the dark background and world map imagery.
+```css
+/* Example colors from app.css */
+background-color: #1e3d59;
+color: #ffffff;
+button {
+  background-color: #4caf50;
+}
 
-The Game Page
+### Typography
 
-    Dynamically updates the question and answer options as the user progresses.
-    Includes a visual progress bar to indicate quiz completion status.
-
-The End Score Page
-
-    Displays the user’s score with personalized feedback (e.g., "Great job!" or "Try again!").
-    Offers a "Restart Quiz" button for replayability.
-
-Future Implementations
-
-    Timed Quiz: Add a timer for each question.
-    Category Selection: Enable users to choose quiz categories.
-    Leaderboard: Introduce rankings based on user scores.
-    User Accounts: Allow users to save progress and scores.
-
-Accessibility
-
-    Keyboard Navigation: Fully functional navigation using Tab and Enter keys.
-    Color Contrast: High-contrast colors for text and backgrounds ensure readability.
-    ARIA Labels: Added to interactive elements for screen-reader compatibility.
-    Responsive Design: Works seamlessly on mobile, tablet, and desktop devices.
-
-Technologies Used
-Languages Used
-
-    HTML
-    CSS
-    JavaScript
-
-Frameworks, Libraries & Programs Used
-
-    Google Fonts: For modern and appealing typography.
-    Git: Version control.
-    GitHub Pages: Deployment of the live site.
-    W3C Validators: For ensuring clean and semantic code.
-
-Deployment & Local Development
-Deployment
-
-    Commit and push all changes to the main branch of the repository.
-    Go to the GitHub repository's Settings.
-    Under Pages, select the source as main and the directory as /root.
-    The site will be live at:  https://zoyarasheed.github.io/Quiz-App/.
-
-Local Development
-How to Fork
-
-    Go to the repository: Quiz App Repository.
-    Click the Fork button in the top-right corner.
-    A copy of the repository will be created under your GitHub account.
-
-How to Clone
-
-    Open GitHub and navigate to the forked repository.
-    Click the Code button and copy the SSH or HTTPS link.
-    In your terminal, run:
-
-git clone git@github.com:ZoyaRasheed/Quiz-App.git
-
-Navigate into the project directory:
-
-    cd Quiz-App
-
-    Open index.html in a browser to view the app locally.
-
-Testing
-Solved Bugs
-
-    Progress bar not updating: Corrected the span updating logic.
-    Button hover lag: Adjusted CSS transitions for smooth interaction.
-
-Known Bugs
-
-No known bugs at this time.
-(Update this section if you find any bugs.)
-Credits
-Code Used
-
-    Progress bar logic inspired by MDN Documentation.
-
-Content
-
-    Geography questions sourced from Geography.com.
-
-Media
-
-    Background image: Unsplash.
-
-Acknowledgments
-
-    Special thanks to FreeCodeCamp for inspiring this project!
+    
