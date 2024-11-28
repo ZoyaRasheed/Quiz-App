@@ -11,7 +11,8 @@
     align-items: center;
     height: 100vh;
     min-height: 100vh;
-    background-image: url("/bg1.avif");
+    background-image: url("https://img.freepik.com/premium-vector/abstract-grunge-world-map-background_47840-1472.jpg?semt=ais_hybrid");
+    /* background-image: url("/bg1.avif"); */
     background-repeat: no-repeat;
     background-size:cover;
     color: black;
